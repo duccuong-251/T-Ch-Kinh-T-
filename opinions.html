@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Góp Ý Tưởng | Tự Chủ Kinh Tế</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--primary);"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                <span>TựChủ</span>KinhTế
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Trang Chủ</a></li>
+                <li><a href="about.html">Giới Thiệu</a></li>
+                <li><a href="plans.html">Kế Hoạch</a></li>
+                <li><a href="opinions.html" class="active">Ý Kiến</a></li>
+                <li><a href="contact.html">Liên Hệ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="container" style="max-width: 800px;">
+            <h1 class="section-title">Góc Ý Kiến & Kế Hoạch Của Bạn</h1>
+            <p style="text-align: center; margin-bottom: 2rem; color: #64748b;">Bạn có một ý tưởng kinh doanh, một kế hoạch tiết kiệm độc đáo hay kinh nghiệm đầu tư muốn chia sẻ? Hãy gửi ngay cho cộng đồng!</p>
+            
+            <div class="form-container">
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="fullname">Họ và tên hoặc Nickname</label>
+                        <input type="text" id="fullname" class="form-control" placeholder="Nhập tên của bạn" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="category">Lĩnh vực kế hoạch</label>
+                        <select id="category" class="form-control" required>
+                            <option value="">-- Chọn lĩnh vực --</option>
+                            <option value="saving">Tiết kiệm & Quản lý chi tiêu</option>
+                            <option value="investing">Đầu tư (Chứng khoán, Crypto, BĐS)</option>
+                            <option value="business">Khởi nghiệp & Kinh doanh</option>
+                            <option value="other">Ý tưởng khác</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="title">Tên Kế Hoạch / Ý Tưởng</label>
+                        <input type="text" id="title" class="form-control" placeholder="Ví dụ: Cách tiết kiệm 10 triệu/tháng từ lương 20 triệu" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="content">Chi tiết ý kiến hoặc kế hoạch</label>
+                        <textarea id="content" class="form-control" rows="6" placeholder="Viết chi tiết các bước, khó khăn và lợi ích..." required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn" style="width: 100%;">Gửi Ý Kiến Cộng Đồng</button>
+                </form>
+            </div>
+            
+            <div style="margin-top: 4rem;">
+                <h3 style="margin-bottom: 1.5rem; color: var(--dark);">Ý Kiến Mới Nhất Từ Cộng Đồng</h3>
+                <div class="card" style="margin-bottom: 1rem; border-left: 4px solid var(--primary);">
+                    <h4>Khởi nghiệp bán hàng online với vốn 0 đồng (Dropshipping)</h4>
+                    <p style="font-size: 0.9rem; color: #94a3b8; margin: 0.5rem 0;">Bởi: Minh Quân | Lĩnh vực: Khởi nghiệp</p>
+                    <p>Mình bắt đầu xây dựng kênh TikTok chia sẻ mẹo vặt gia đình và gắn link Affiliate. Sau 3 tháng thu nhập thụ động đạt 5-7 triệu/tháng. Kế hoạch là...</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-bottom" style="margin-top: 0; padding-top: 2rem;">
+            &copy; 2024 Nhóm Dự Án Tự Chủ Kinh Tế. Bài tập Web HTML/CSS.
+        </div>
+    </footer>
+</body>
+</html>

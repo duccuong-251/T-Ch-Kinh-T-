@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên Hệ | Tự Chủ Kinh Tế</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--primary);"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                <span>TựChủ</span>KinhTế
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Trang Chủ</a></li>
+                <li><a href="about.html">Giới Thiệu</a></li>
+                <li><a href="plans.html">Kế Hoạch</a></li>
+                <li><a href="opinions.html">Ý Kiến</a></li>
+                <li><a href="contact.html" class="active">Liên Hệ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="container" style="max-width: 1000px; display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center; margin-top: 2rem;">
+            <div>
+                <h1 class="section-title" style="text-align: left; margin-bottom: 1rem;">Liên hệ với chúng tôi</h1>
+                <p style="color: #64748b; margin-bottom: 2rem;">Bạn cần hỗ trợ tư vấn lộ trình tài chính cá nhân hoặc muốn tham gia vào đội ngũ quản trị cộng đồng? Hãy để lại thông tin, chúng tôi sẽ liên hệ lại trong vòng 24 giờ.</p>
+                
+                <div style="margin-bottom: 2rem;">
+                    <div style="display: flex; gap: 1rem; margin-bottom: 1rem; align-items: center;">
+                        <div style="background: var(--light); padding: 1rem; border-radius: 50%;"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--primary);"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
+                        <div>
+                            <h4 style="margin:0;">Điện thoại</h4>
+                            <p style="color: #64748b; margin:0;">0123 456 789</p>
+                        </div>
+                    </div>
+                    <div style="display: flex; gap: 1rem; align-items: center;">
+                        <div style="background: var(--light); padding: 1rem; border-radius: 50%;"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--primary);"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+                        <div>
+                            <h4 style="margin:0;">Email</h4>
+                            <p style="color: #64748b; margin:0;">hotro@tuchukinhte.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-container" style="padding: 2rem; box-shadow: 0 20px 40px rgba(0,0,0,0.1);">
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="name">Họ và Tên</label>
+                        <input type="text" id="name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Lời nhắn</label>
+                        <textarea id="message" class="form-control" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn" style="width: 100%;">Gửi Tin Nhắn</button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
